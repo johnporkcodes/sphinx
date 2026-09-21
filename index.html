@@ -2,6 +2,21 @@
 <html>
   <head>
     <title>Sphinx</title>
+	  <style>
+		/* 1. This tells the browser where to download your font file */
+		  @font-face {
+			  font-family: 'Secular';
+			  src: url('secularv2.ttf') format('truetype'); 
+		}
+
+        /* 2. This applies the font to the entire webpage */
+        body {
+            background-color: #000000;
+            color: #00AA00;
+            font-family: 'Secular', monospace; /* 'monospace' is the fallback if your font fails to load */
+            padding: 0px;
+        }
+	  </style>
   </head>
   <body style="background-color: #FFFFFF; color: #0f0; font-family: monospace; padding: 20px;">
     <h1>Sphinx is a custom programming language.</h1>
